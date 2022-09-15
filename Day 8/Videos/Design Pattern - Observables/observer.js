@@ -18,10 +18,9 @@ celebrityObsv.subscribe((event)=>{
     console.log(`I am going to ${event}.`);
 })
 
-celebrityObsv.subscribers((event)=>{
+celebrityObsv.subscribe((event)=>{
     console.log(`I am not going to ${event}.`);
 })
 
 celebrityObsv.broadcast("Disco Morning");
 
-debugger;
